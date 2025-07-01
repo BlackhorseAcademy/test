@@ -43,7 +43,7 @@ let loaderShown = localStorage.getItem("loaderShown");
 
       
       localStorage.setItem("loaderShown", "true");
-    }, 2500);
+    }, 1000);
   } else {
   
     document.querySelector(".lod").classList.add("d-none");
