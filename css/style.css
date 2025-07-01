@@ -1,0 +1,1413 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  
+}
+
+/* main-start */
+p {
+  font-family: "Roboto", sans-serif;
+}
+button {
+  font-family: "Roboto", sans-serif; 
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+h5{
+  font-family: "Oswald", sans-serif;
+}
+h4{
+  font-family: "Oswald", sans-serif;
+}
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+.navbar {
+  top: 8px;
+  border-radius: 30px;
+  border: #198754 1px solid;
+  padding: 0px;
+}
+
+.sec-head h3 {
+  
+  z-index: 15;
+}
+.sec-head-child {
+  width: fit-content;
+}
+
+.sec-head i {
+  position: absolute;
+  font-size: 80px;
+  top: -25%;
+  left: 18%;
+  color: #1987544a;
+  
+}
+
+.navbar-nav .nav-link {
+color: #198754;
+}
+.navbar-nav .nav-link.active {
+color: #000000;
+}
+
+.navbar-toggler{
+  color: black;
+  border: 1px solid black;
+}
+
+
+/* main -end */
+/* nav-start */
+nav {
+  background-color: white;
+  
+}
+nav .logoimg {
+  width: 40px;
+}
+nav li {
+  font-family: "Overpass", sans-serif;
+  
+}
+.form-control:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 .25rem #19875462;
+}
+/* nav-end */
+/* home-start */
+#home {
+  height: 90vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/backgr.webp);
+    background-position: center;
+    background-attachment :fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home h1 {
+  font-family: "Oswald", sans-serif;
+}
+
+
+.shadow__btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(20, 169, 0);
+  box-shadow: 0 0 25px rgb(20, 169, 0);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(20, 169, 0),
+              0 0 25px rgb(20, 169, 0),
+              0 0 50px rgb(20, 169, 0),
+              0 0 100px rgb(20, 169, 0);
+}
+
+
+/* home -end */
+
+/* about-start */
+#about {
+  padding: 40px 0px 70px;
+  position: relative;
+}
+
+#about::after {
+  content: "";
+  
+  background-image: url(../img/branch1.webp);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+ 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#about::before {
+  content: "";
+  
+  background-image: url(../img/branch2.webp);
+  width: 220px;
+  height: 200px;
+  background-size: cover;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#about .about-inner {
+  background-color: rgb(233, 233, 233);
+  padding:25px 25px;
+  border: 1px solid #198754;
+}
+
+
+/* about-end */
+
+#services {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/abstract-green-leaf-texture-nature-background-tropical-leaf-green-leaf_512343-1216.webp);
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding: 40px 0px;
+  border-radius: 30px;
+}
+
+#services .sec-head i {
+  position: absolute;
+  font-size: 80px;
+  top: -25%;
+  left: 18%;
+  color: #ffffff4a;
+  
+}
+
+
+#services .card-body {
+  padding: 70px 20px;
+  
+}
+#services .card {
+ margin-bottom: 10px; 
+ background-color: rgba(0, 0, 0, 0.575);
+ box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+}
+
+#services .card-body p {
+  color: #ffffff;
+  word-spacing: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+#services .card-body h6 {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+#services .card-body .card-ico {
+  width: 70px;
+  font-size: 25px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+  color: black;
+  transition: 0.5s 0.1s all;
+
+}
+
+#services .card-body:hover .card-ico {
+  background-color: black;
+  color: white;
+
+}
+
+
+/* service-end */
+
+/* product-start */
+
+#product {
+  padding: 40px 0px 70px;
+  position: relative;
+}
+
+
+
+#product::after {
+  content: "";
+  
+  background-image: url(../img/branch1.webp);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+ 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#product::before {
+  content: "";
+  
+  background-image: url(../img/branch2.webp);
+  width: 220px;
+  height: 200px;
+  background-size: cover;
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* fruits-start */
+
+#fruits{
+  padding: 30px;
+ border: #000000 solid 1px ;
+  border-radius: 10px; 
+  margin-bottom: 30px;
+}
+
+
+
+.col1 {
+  margin-bottom:70px ;
+}
+
+
+#fruits  .strawberry img {
+  position: absolute;
+  top: -80px;
+  left: 38%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 108px;
+}
+
+
+
+#fruits .bnana {
+  position: absolute;
+  top: -65px;
+  left: 35%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 115px;
+}
+
+#fruits .apple {
+  
+    position: absolute;
+    top: -80px;
+    left: 34%;
+    
+    filter: drop-shadow(0 0 2.5px black);
+    width: 108px;
+  }
+  
+  
+#fruits .avocado {
+  
+    position: absolute;
+    top: -80px;
+    left: 23%;
+    
+    filter: drop-shadow(0 0 2.5px black);
+    width: 160px;
+  }
+
+#fruits  .coconut-card img {
+  position: absolute;
+  top: -70px;
+  left: 32%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 120px;
+}
+
+#fruits  .coconut-card  h4 {
+  color: rgb(132, 11, 11);
+
+}
+#fruits  .coconut-card {
+  border: 1px solid rgb(132, 11, 11); ;
+}
+
+#fruits  .coconut-card a {
+  background-color: rgb(132, 11, 11);
+  color: #ffffff  ;
+}
+
+#fruits  .coconut-card a:hover {
+  background-color: rgb(102, 9, 9);
+ 
+}
+
+#fruits  .durian img {
+  position: absolute;
+  top: -70px;
+  left: 28%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 150px;
+}
+
+#fruits  .durian  h4 {
+  color: #be9f1b;
+
+}
+#fruits  .durian{
+  border: 1px solid #be9f1b; ;
+}
+
+#fruits  .durian a {
+  background-color: #be9f1b;
+  color: black  ;
+}
+
+#fruits  .durian a:hover {
+  background-color: #8b7514;
+ 
+}
+
+#fruits  .mango {
+  position: absolute;
+  top: -47px;
+  left: 28%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 140px;
+}
+
+
+#fruits  .orange img {
+  position: absolute;
+  top: -70px;
+  left: 28%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 150px;
+}
+
+#fruits  .orange  h4 {
+  color: orange;
+
+}
+#fruits  .orange{
+  border: 1px solid orange; ;
+}
+
+#fruits  .orange a {
+  background-color: orange;
+  color: black  ;
+}
+
+#fruits  .orange a:hover {
+  background-color: rgb(228, 150, 4);
+ 
+}
+
+
+
+
+#fruits .head-fruits {
+ margin-bottom: 50px;
+}
+
+#fruits .head-fruits a i {
+  color: black;
+  transition: 0s 0.1s all;
+ }
+
+ #fruits .head-fruits a:hover i {
+  color: white;
+ }
+.card-body .card-title {
+  margin-top: 60px;
+}
+
+#fruits .row {
+  margin-top: 70px;
+}
+
+#fruits .carousel-indicators [data-bs-target] {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  
+}
+
+#fruits .input-group span {
+ width: 40px;
+ height: 40px
+ }
+#fruits .form-control {
+ border-radius: 30px;
+ border: 1px solid black;
+}
+
+
+#fruits .form-control:focus {
+  border-color: black;
+  box-shadow: 0 0 0 .25rem rgba(0, 0, 0, 0.412);
+  border-radius: 30px;
+}
+
+#fruits  .grapes img {
+  position: absolute;
+  top: -70px;
+  left: 28%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 140px;
+}
+
+#fruits  .dragon img {
+  position: absolute;
+  top: -70px;
+  left: 28%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 140px;
+}
+
+#fruits  .dragon  h4 {
+  color: rgb(239, 38, 105);
+
+}
+#fruits  .dragon{
+  border: 1px solid rgb(239, 38, 105) ;
+}
+
+#fruits  .dragon a {
+  background-color: rgb(239, 38, 105);
+  color: black  ;
+}
+
+#fruits  .dragon a:hover {
+  background-color: rgb(214, 17, 83);
+ 
+}
+
+#fruits  .watermelon img {
+  position: absolute;
+  top: -60px;
+  left: 28%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 145px;
+}
+
+#fruits  .watermelon  h4 {
+  color: green;
+
+}
+#fruits  .watermelon{
+  border: 1px solid green ;
+}
+
+#fruits  .watermelon a {
+  background-color: green;
+  color: black  ;
+}
+
+#fruits  .watermelon a:hover {
+  background-color: rgb(2, 88, 2);
+ 
+}
+
+
+#fruits  .berry img {
+  position: absolute;
+  top: -55px;
+  left: 23%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 160px;
+}
+
+#fruits  .berry  h4 {
+  color: rgb(210, 2, 2);
+
+}
+#fruits  .berry{
+  border: 1px solid rgb(210, 2, 2); ;
+}
+
+#fruits  .berry a {
+  background-color: rgb(210, 2, 2);;
+  color: black  ;
+}
+
+#fruits  .berry a:hover {
+  background-color: rgb(164, 2, 2);;
+ 
+}
+
+/* fruitspage */
+#fruitsproduct {
+  padding-top: 110px;
+  padding-bottom: 40px;
+}
+
+.row .card-1
+{
+  margin-bottom: 80px;
+}
+
+
+
+
+/* fruits-end */
+
+/* vegetablepage */
+
+#vegetablespro {
+  padding-top: 110px;
+  padding-bottom: 40px;
+}
+
+.row .card-1
+{
+  margin-bottom: 80px;
+}
+
+/* vegetablepage */
+
+
+/* vegetable-start */
+
+#vegetables {
+  background-color: #f4f4f4;
+  padding: 30px;
+ border: #000000 solid 1px ;
+  border-radius: 10px;
+}
+#vegetables .row {
+  margin-top: 100px;
+}
+
+#vegetables .card {
+  background-color: transparent;
+}
+
+
+#vegetables  .sweetpotatoes img {
+  position: absolute;
+  top: -70px;
+  left: 28%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 150px;
+}
+
+#vegetables  .sweetpotatoes  h4 {
+  color: rgb(99, 1, 99);
+
+}
+#vegetables  .sweetpotatoes{
+  border: 1px solid rgb(99, 1, 99) ;
+}
+
+#vegetables  .sweetpotatoes a {
+  background-color: rgb(99, 1, 99);
+  color: black  ;
+}
+
+#vegetables  .sweetpotatoes a:hover {
+  background-color:rgb(73, 1, 73);
+ 
+}
+
+#vegetables  .carrots img {
+  position: absolute;
+  top: -60px;
+  left: 27%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 180px;
+}
+
+#vegetables  .carrots  h4 {
+  color: orangered;
+
+}
+#vegetables  .carrots{
+  border: 1px solid orangered ;
+}
+
+#vegetables  .carrots a {
+  background-color: orangered;
+  color: black  ;
+}
+
+#vegetables  .carrots a:hover {
+  background-color:rgb(201, 54, 0);
+ 
+}
+
+
+#vegetables  .beetroot img {
+  position: absolute;
+  top: -80px;
+  left: 27%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 140px;
+}
+
+#vegetables  .beetroot  h4 {
+  color: purple;
+
+}
+#vegetables  .beetroot{
+  border: 1px solid purple ;
+}
+
+#vegetables  .beetroot a {
+  background-color: purple;
+  color: black  ;
+}
+
+#vegetables  .beetroot a:hover {
+  background-color:rgb(112, 1, 112);
+ 
+}
+
+
+#vegetables  .greenpeppers img {
+  position: absolute;
+  top: -55px;
+  left: 27%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 150px;
+}
+
+#vegetables  .greenpeppers h4 {
+  color: rgb(55, 177, 78);
+
+}
+#vegetables  .greenpeppers{
+  border: 1px solid rgb(55, 177, 78) ;
+}
+
+#vegetables  .greenpeppers a {
+  background-color: rgb(55, 177, 78);
+  color: black  ;
+}
+
+#vegetables  .greenpeppers a:hover {
+  background-color:rgb(45, 145, 64);
+ 
+}
+
+#vegetables  .cabbage img {
+  position: absolute;
+  top: -62px;
+  left: 30%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 120px;
+}
+
+#vegetables  .cabbage h4 {
+  color: rgb(55, 177, 78);
+
+}
+#vegetables  .cabbage{
+  border: 1px solid rgb(55, 177, 78) ;
+}
+
+#vegetables  .cabbage a {
+  background-color: rgb(55, 177, 78);
+  color: black  ;
+}
+
+#vegetables  .cabbage a:hover {
+  background-color:rgb(45, 145, 64);
+ 
+}
+
+
+#vegetables  .RedbellPepper img {
+  position: absolute;
+  top: -70px;
+  left: 33%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 106px;
+}
+
+#vegetables  .RedbellPepper h4 {
+  color: rgb(195, 0, 0);
+
+}
+#vegetables  .RedbellPepper{
+  border: 1px solid rgb(195, 0, 0) ;
+}
+
+#vegetables  .RedbellPepper a {
+  background-color: rgb(195, 0, 0);
+  color: black  ;
+}
+
+#vegetables  .RedbellPepper a:hover {
+  background-color:rgb(154, 2, 2);
+ 
+}
+
+#vegetables  .cucumber img {
+  position: absolute;
+  top: -50px;
+  left: 23%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 155px;
+}
+
+#vegetables  .cucumber h4 {
+  color: rgb(2, 143, 0);
+
+}
+#vegetables  .cucumber{
+  border: 1px solid rgb(2, 143, 0) ;
+}
+
+#vegetables  .cucumber a {
+  background-color: rgb(2, 143, 0);
+  color: black  ;
+}
+
+#vegetables  .cucumber a:hover {
+  background-color:rgb(3, 116, 2);
+ 
+}
+
+#vegetables  .RedPeppers img {
+  position: absolute;
+  top: -70px;
+  left: 33%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 106px;
+}
+
+#vegetables  .RedPeppers h4 {
+  color: rgb(195, 0, 0);
+
+}
+#vegetables  .RedPeppers{
+  border: 1px solid rgb(195, 0, 0) ;
+}
+
+#vegetables  .RedPeppers a {
+  background-color: rgb(195, 0, 0);
+  color: black  ;
+}
+
+#vegetables  .RedPeppers a:hover {
+  background-color:rgb(154, 2, 2);
+ 
+}
+
+#vegetables  .tomato img {
+  position: absolute;
+  top: -60px;
+  left: 31%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 116px;
+}
+
+#vegetables  .tomato h4 {
+  color: rgb(195, 0, 0);
+
+}
+#vegetables  .tomato{
+  border: 1px solid rgb(195, 0, 0) ;
+}
+
+#vegetables  .tomato a {
+  background-color: rgb(195, 0, 0);
+  color: black  ;
+}
+
+#vegetables  .tomato a:hover {
+  background-color:rgb(154, 2, 2);
+ 
+}
+
+#vegetables  .turnip img {
+  position: absolute;
+  top: -90px;
+  left: 28%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 140px;
+}
+
+#vegetables  .turnip h4 {
+  color: rgb(252, 85, 241);
+
+}
+#vegetables  .turnip{
+  border: 1px solid rgb(252, 85, 241) ;
+}
+
+#vegetables  .turnip a {
+  background-color: rgb(252, 85, 241);
+  color: black  ;
+}
+
+#vegetables  .turnip a:hover {
+  background-color:rgb(248, 65, 235);
+ 
+}
+
+#vegetables  .eggplant img {
+  position: absolute;
+  top: -80px;
+  left: 27%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 140px;
+}
+
+#vegetables  .eggplant  h4 {
+  color: purple;
+
+}
+#vegetables  .eggplant{
+  border: 1px solid purple ;
+}
+
+#vegetables  .eggplant a {
+  background-color: purple;
+  color: black  ;
+}
+
+#vegetables  .eggplant a:hover {
+  background-color:rgb(112, 1, 112);
+ 
+}
+
+#vegetables  .potato img {
+  position: absolute;
+  top: -50px;
+  left: 27%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 140px;
+}
+
+#vegetables  .potato  h4 {
+  color: #d67317;
+
+}
+#vegetables  .potato{
+  border: 1px solid #d67317 ;
+}
+
+#vegetables  .potato a {
+  background-color: #d67317;
+  color: black  ;
+}
+
+#vegetables  .potato a:hover {
+  background-color:rgb(195, 108, 27);
+ 
+}
+
+
+
+#vegetables .carousel-indicators [data-bs-target] {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  
+}
+
+#vegetables .input-group span {
+ width: 40px;
+ height: 40px
+ }
+#vegetables .form-control {
+ border-radius: 30px;
+ border: 1px solid black;
+}
+
+.contact-fixed {
+ position: fixed;
+  bottom: 70px;
+  right: 50px;
+  z-index: 33333;
+}
+.cssbuttons-io-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  font-weight: 500;
+ 
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(
+    0deg,
+    rgba(20, 167, 62, 1) 0%,
+    rgba(102, 247, 113, 1) 100%
+  );
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  
+  border-radius: 50%;
+}
+
+
+.cssbuttons-io-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.cssbuttons-io-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+
+#contact {
+  padding: 50px 0px;
+  background-image: url(../img/all-white-folded-paper-strips-background-m3suujs4ekgv932g.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+#contact .sec-head i {
+  position: absolute;
+  font-size: 80px;
+  top: -25%;
+  left: 18%;
+  color: #0000004a;
+  
+}
+/* card1 */
+#contact .e-card {
+  margin: 40px auto;
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  position: relative;
+  width: 83%;
+  height:400px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.3s 0.1s all;
+  
+}
+#contact .e-card:hover {
+  box-shadow: 0px 0px 15px 5px #00000077;
+  transform: scale(1.05);
+}
+#contact .wave {
+  position: absolute;
+  width: 540px;
+  height: 700px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg,#50ff40,#027300 60%,#00ddeb);
+}
+
+#contact .infotop .icon {
+  width: 3em;
+  margin-top: -1em;
+  padding-bottom: 1em;
+}
+
+#contact .infotop {
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 25% ;
+  left: 0;
+  right: 0;
+  
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+#contact .infotop i {
+  font-size: 60px;
+}
+
+#contact .name {
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  top: 1em;
+  
+}
+
+#contact .wave:nth-child(2),
+#contact .wave:nth-child(3) {
+  top: 210px;
+}
+
+#contact .playing .wave {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+#contact .wave {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+#contact .playing .wave:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+#contact .wave:nth-child(2) {
+  animation-duration: 50s;
+}
+
+#contact .playing .wave:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+#contact.wave:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* card1 */
+
+/* card2 */
+
+#contact .e-card2 {
+  margin: 40px auto;
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  position: relative;
+  width: 83%;
+  height:400px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.3s 0.1s all;
+  
+}
+#contact .e-card2:hover {
+  box-shadow: 0px 0px 15px 5px #00000077;
+  transform: scale(1.05);
+}
+
+#contact .wave2 {
+  position: absolute;
+  width: 540px;
+  height: 700px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg,#484848 ,#000000 60%,#00ddeb);
+}
+
+#contact .infotop2 .icon2 {
+  width: 3em;
+  margin-top: -1em;
+  padding-bottom: 1em;
+}
+
+#contact .infotop2 {
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 25% ;
+  left: 0;
+  right: 0;
+  
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+#contact .infotop2 i {
+  font-size: 55px;
+}
+
+#contact .name2 {
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  top: 1em;
+  
+}
+
+#contact .wave2:nth-child(2),
+#contact .wave2:nth-child(3) {
+  top: 210px;
+}
+
+#contact .playing2 .wave2 {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+#contact .wave2 {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+#contact .playing2 .wave2:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+#contact .wave2:nth-child(2) {
+  animation-duration: 50s;
+}
+
+#contact .playing2 .wave2:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+#contact .wave2:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* card2 */
+
+
+/* card3 */
+
+
+#contact .e-card3 {
+  margin: 40px auto;
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  position: relative;
+  width: 83%;
+  height:400px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.3s 0.1s all;
+  
+}
+#contact .e-card3:hover {
+  box-shadow: 0px 0px 15px 5px #00000077;
+  transform: scale(1.05);
+}
+#contact .wave3 {
+  position: absolute;
+  width: 540px;
+  height: 700px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg,#0014ac,#2e24e9 60%,#00ddeb);
+}
+
+#contact .infotop3 .icon3 {
+  width: 3em;
+  margin-top: -1em;
+  padding-bottom: 1em;
+}
+
+#contact .infotop3 {
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 25% ;
+  left: 0;
+  right: 0;
+  
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+#contact .infotop3 i {
+  font-size: 45px;
+}
+
+#contact .name3 {
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  top: 1em;
+  
+}
+
+#contact .wave3:nth-child(2),
+#contact .wave3:nth-child(3) {
+  top: 210px;
+}
+
+#contact .playing3 .wave3 {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+#contact .wave3 {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+#contact .playing3 .wave3:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+#contact .wave3:nth-child(2) {
+  animation-duration: 50s;
+}
+
+#contact .playing3 .wave3:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+#contact .wave3:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Strawberry */
+
+.strawberry-img{
+  filter: drop-shadow(0 0 3px black);
+  width: 160px;
+}
+
+#fruitsproduct .strawberry-i {
+  z-index: -5;
+  color: rgba(255, 0, 0, 0.2);
+}
+
+
+
+.loader {
+  width: 85px;
+  height: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  animation: loading-rotate 3s linear infinite;
+}
+
+.item {
+  width: 40px;
+  height: 40px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.item:nth-of-type(1) {
+  background-color: #50DE68;
+  border-radius: 20px 20px 0 20px;
+  border-left: #ffffff 4px solid;
+  border-top: #f7f7f7 4px solid;
+}
+
+.item:nth-of-type(2) {
+  background-color: rgb(32, 80, 46);
+  border-radius: 20px 20px 20px 0;
+  border-right: #ffffff 4px solid;
+  border-top: #f7f7f7 4px solid;
+}
+
+.item:nth-of-type(3) {
+  background-color: rgb(0, 255, 55);
+  border-radius: 20px 0 20px 20px;
+  border-left: #ffffff 4px solid;
+  border-bottom: #f7f7f7 4px solid;
+}
+
+.item:nth-of-type(4) {
+  background-color: rgb(32, 182, 32);
+  border-radius: 0 20px 20px 20px;
+  border-right: #ffffff 4px solid;
+  border-bottom: #f7f7f7 4px solid;
+}
+
+@keyframes loading-rotate {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+
+  20% {
+    transform: scale(1) rotate(72deg);
+  }
+
+  40% {
+    transform: scale(0.5) rotate(144deg);
+  }
+
+  60% {
+    transform: scale(0.5) rotate(216deg);
+  }
+
+  80% {
+    transform: scale(1) rotate(288deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+.lod {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  z-index: 99999999999;
+
+}
+
+.loading::-webkit-scrollbar {
+  display: none;
+}

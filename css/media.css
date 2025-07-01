@@ -1,0 +1,383 @@
+@media screen and (max-width: 560px) {
+    #about::after {
+        content: "";
+        
+        background-image: url(../img/branch1.webp);
+        width: 160px;
+        height: 160px;
+        background-size: cover;
+       
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      
+      #about::before {
+        content: "";
+        
+        background-image: url(../img/branch2.webp);
+        width: 180px;
+        height: 140px;
+        background-size: cover;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+    #product::after {
+        content: "";
+        
+        background-image: url(../img/branch1.webp);
+        width: 160px;
+        height: 160px;
+        background-size: cover;
+       
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      
+      #product::before {
+        content: "";
+        
+        background-image: url(../img/branch2.webp);
+        width: 180px;
+        height: 140px;
+        background-size: cover;
+       
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+}
+
+
+@media screen and (max-width: 395px) {
+    #about::after {
+        content: "";
+        
+        background-image: url(../img/branch1.webp);
+        width: 120px;
+        height: 120px;
+        background-size: cover;
+       
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      
+      #about::before {
+        content: "";
+        
+        background-image: url(../img/branch2.webp);
+        width: 120px;
+        height: 100px;
+        background-size: cover;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+    #product::after {
+        content: "";
+        
+        background-image: url(../img/branch1.webp);
+        width: 120px;
+        height: 120px;
+        background-size: cover;
+       
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      
+      #product::before {
+        content: "";
+        
+        background-image: url(../img/branch2.webp);
+        width: 120px;
+        height: 100px;
+        background-size: cover;
+       
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+}
+
+@media (max-width: 991.80px) {
+ .navbar-nav {
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    border: #027300 1px solid;
+    padding-bottom: 8px;
+    overflow: hidden;
+  }
+  nav li{
+    transition: 0.2s 0.1s all;
+  }
+  nav li:hover {
+  background-color: #cbcbcb;
+  border-radius: 15px;
+  transform: scale(1.1);
+  
+  }
+  
+}
+
+@media (max-width: 768px) {
+  #product .container, .container-sm {
+      max-width: none;
+  } 
+  #carouselExampleIndicators  .carousel-indicators{
+    bottom: -35px;
+  }
+  #carouselExampleIndicators2  .carousel-indicators{
+    bottom: -35px;
+  }
+  #fruits h3 {
+    font-size: 23px;
+  }
+  #vegetables h3 {
+    font-size: 23px;
+    
+  }
+  #vegetables {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+ 
+}
+
+
+@media (max-width: 524px) {
+  #fruits {
+    padding: 10px 10px 20px;
+    
+  }
+  /* fruits - product */
+  #fruits .row {
+    margin-top: 70px;
+  }
+  #fruits .strawberry img {
+    position: absolute;
+    top: -75px;
+    left: 33%;
+    filter: drop-shadow(0 0 2.5px black);
+    width: 90px;
+}
+#fruits .bnana {
+  position: absolute;
+  top: -60px;
+  left: 25%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 100px;
+}
+#fruits .apple {
+  position: absolute;
+  top: -70px;
+  left: 24%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 90px;
+}
+
+#fruits .avocado {
+  position: absolute;
+  top: -65px;
+  left: 15%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 125px;
+}
+#fruits .coconut-card img {
+  position: absolute;
+  top: -65px;
+  left: 23%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 95px;
+}
+#fruits .mango {
+  position: absolute;
+  top: -47px;
+  left: 21%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 110px;
+}
+#fruits .durian img {
+  position: absolute;
+  top: -60px;
+  left: 17%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 115px;
+}
+#fruits .orange img {
+  position: absolute;
+  top: -55px;
+  left: 22%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 100px;
+}
+#fruits .grapes img {
+  position: absolute;
+  top: -70px;
+  left: 17%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 110px;
+}
+
+#fruits .dragon img {
+  position: absolute;
+  top: -65px;
+  left: 20%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 110px;
+}
+
+#fruits .watermelon img {
+  position: absolute;
+  top: -50px;
+  left: 18%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 110px;
+}
+
+#fruits .berry img {
+  position: absolute;
+  top: -45px;
+  left: 14%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 120px;
+}
+/* fruits - product */
+
+/* vegatables - product */
+
+#vegetables .row {
+  margin-top: 70px;
+}
+#vegetables .sweetpotatoes img {
+  position: absolute;
+  top: -57px;
+  left: 18%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 110px;
+}
+
+#vegetables .carrots img {
+  position: absolute;
+  top: -50px;
+  left: 17%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 130px;
+}
+
+#vegetables .beetroot img {
+  position: absolute;
+  top: -65px;
+  left: 18%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 100px;
+}
+
+
+#vegetables .greenpeppers img {
+  position: absolute;
+  top: -50px;
+  left: 15%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 110px;
+}
+
+#vegetables .cabbage img {
+  position: absolute;
+  top: -60px;
+  left: 20%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 95px;
+}
+
+#vegetables .RedbellPepper img {
+  position: absolute;
+  top: -70px;
+  left: 23%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 85px;
+}
+
+#vegetables .cucumber img {
+  position: absolute;
+  top: -40px;
+  left: 11%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 120px;
+}
+#vegetables .RedPeppers img {
+  position: absolute;
+  top: -60px;
+  left: 24%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 90px;
+}
+
+#vegetables .tomato img {
+  position: absolute;
+  top: -55px;
+  left: 22%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 95px;
+}
+
+#vegetables .turnip img {
+  position: absolute;
+  top: -85px;
+  left: 15%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 120px;
+}
+
+#vegetables .eggplant img {
+  position: absolute;
+  top: -70px;
+  left: 17%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 105px;
+}
+
+#vegetables .potato img {
+  position: absolute;
+  top: -50px;
+  left: 19%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 100px;
+}
+
+.card-body .card-title {
+  margin-top: 40px;
+}
+  .card .card-body h4 {
+    font-size: 18px;
+  }
+  .card .card-body p {
+    font-size: 14px;
+  }
+  .card-body{
+    padding: 5px;
+  }
+
+  #services .card-body {
+    padding: 30px 10px;
+}
+.cssbuttons-io-button {
+  width: 50px;
+  height: 50px;
+}
+.contact-fixed {
+  bottom: 50px;
+    right: 30px;
+}
+
+.row .card-1 {
+  margin-bottom: 40px;
+}
+}
